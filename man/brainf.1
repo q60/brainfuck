@@ -7,9 +7,12 @@ brainf \- modern Brainfuck interpreter with proper comments available.
 brainf [\fIFILE\fR]
 .SH DESCRIPTION
 Brainfuck is an esoteric programming language. It was created in 1993 by Urban Müller. The language is notable because of its minimalistic syntax.
-It consists of 0nly 8 operators. Despite its poor number of commands, it is fully \fITuring complete\fR.
-The author of Brainfuck didn't write a language specification, thus there are many interpreters and compiler exist.
-BrainF is a simple, yet powerful interpreter. Classic brainfuck ignores anything except operators, so anything but operators become comments. This is the main problem. You can't, for example, start a comment and write dots, commas, etc. Punctuation marks automatically turn into operators, likewise plus, minus signs and square brackets. BrainF provides well-formed normal single line comments starting with exclamation marks. There is also an obtainable Vim syntax highlight plugin for BrainF with some other nice features like bracket folding.
+
+It consists of 0nly 8 operators. Despite its poor number of commands, it is fully \fITuring complete\fR. The author of Brainfuck didn't write a language specification, thus there are many interpreters and compiler exist.
+
+BrainF is a simple, yet powerful interpreter. Classic brainfuck ignores anything except operators, so anything but operators become comments. This is the main problem. You can't, for example, start a comment and write dots, commas, etc. Punctuation marks automatically turn into operators, likewise plus, minus signs and square brackets.
+
+BrainF provides well-formed normal single line comments starting with exclamation marks. There is also an obtainable Vim syntax highlight plugin for BrainF with some other nice features like bracket folding.
 .SH OPTIONS
 BrainF has no option. If no file passed, it takes input from \fISTDIN\fR and it can be used like this:
 
