@@ -1,7 +1,7 @@
-Brainfuck
-=========
+BrainF
+======
 
-Yet another brainfuck interpreter and dialect. Written in Nim.
+Yet another brainfuck interpreter and dialect. Written in **Nim**.
 
 ![Example](https://i.imgur.com/GhUxNkP.png)
 
@@ -17,6 +17,7 @@ Yet another brainfuck interpreter and dialect. Written in Nim.
 ### Dependencies:
 - Nim >= 1.0
 - Make
+- gzip
 
 Firstly, you need to install **[Nim](https://github.com/nim-lang/Nim)**.
 
@@ -46,6 +47,8 @@ Hello world!
 $ echo "++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>." | brainf
 Hello World!
 ```
+
+Use `man brainf` for help and more information.
 
 ## TODO:
 - [ ] *? Multiline comments*.

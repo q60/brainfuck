@@ -22,10 +22,14 @@ build:
 install:
 	@cd build &&\
 		cp brainf /usr/local/bin
+	@cd man &&\
+		cp brainf.1 /usr/local/man/man1 &&\
+		gzip /usr/local/man/man1/brainf.1
 	@printf '\e[31mINSTALLED\e[0m.\n'
 
 uninstall:
 	@rm /usr/local/bin/brainf
+	@rm /usr/local/man/man1/brainf.1.gz
 	@printf '\e[31mUNINSTALLED\e[0m.\n'
 
 clean:
