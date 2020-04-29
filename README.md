@@ -16,7 +16,7 @@ Yet another brainfuck interpreter and dialect. Written in **Nim**.
 
 ### Dependencies:
 - Nim >= 1.0
-- Make
+- make
 - gzip
 
 Firstly, you need to install **[Nim](https://github.com/nim-lang/Nim)**.
