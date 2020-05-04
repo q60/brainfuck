@@ -24,7 +24,9 @@ proc bf(skip = false): bool =
       of '+':
         if int(tape[index]) == 255: tape[index] = char(0)
         else: inc tape[index]
-      of '-': dec tape[index]
+      of '-':
+        if int(tape[index]) == 0: tape[index] = char(255)
+        else: dec tape[index]
       of '>': inc index
       of '<': dec index
       of '.': stdout.write tape[index]
