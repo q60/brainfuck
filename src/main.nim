@@ -21,7 +21,9 @@ proc bf(skip = false): bool =
       return tape[index] != '\0'
     elif not skip:
       case code[accessor]
-      of '+': inc tape[index]
+      of '+':
+        if int(tape[index]) == 255: tape[index] = char(0)
+        else: inc tape[index]
       of '-': dec tape[index]
       of '>': inc index
       of '<': dec index
