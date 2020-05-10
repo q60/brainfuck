@@ -1,23 +1,23 @@
 BrainF
 ======
-
 Yet another brainfuck interpreter and dialect. Written in **Nim**.
 
 ![Example](https://i.imgur.com/GhUxNkP.png)
 
-## Features:
-- *Unlimited tape length*.
-- *Normal comments using*`!`.
-- *Fast*.
-- *Small*.
-- *[Special Vim syntax highlight plugin supporting comment highlight](https://github.com/llathasa-veleth/vim-brainfuck)*.
+Features
+--------
+  - *Unlimited tape length*.
+  - *Normal comments using*`!`.
+  - *Fast*.
+  - *Small*.
+  - *[Special Vim syntax highlight plugin supporting comment highlight](https://github.com/llathasa-veleth/vim-brainfuck)*.
 
-## Installation.
-
+Installation
+------------
 ### Dependencies:
-- Nim >= 1.0
-- make
-- gzip
+  - Nim >= 1.0
+  - make
+  - gzip
 
 Firstly, you need to install **[Nim](https://github.com/nim-lang/Nim)**.
 
@@ -37,8 +37,8 @@ If you want to install it globally to your **$PATH**, you should run `make insta
 
 For more options run `make help`.
 
-## Using.
-
+Using
+-----
 Here are some examples of using the interpreter.
 
 ```sh
@@ -50,7 +50,8 @@ Hello World!
 
 Use `man brainf` for help and more information.
 
-## TODO:
-- [ ] *? Multiline comments*.
-- [ ] *? Inline comments*.
-- [ ] *? Optional additional operators*.
+TODO
+----
+  - [ ] *? Multiline comments*.
+  - [ ] *? Inline comments*.
+  - [ ] *? Optional additional operators*.
